@@ -1,0 +1,9 @@
+{
+    "nombre":"Yarelly",
+    "apellido":"Medina",
+    "cuenta":"0801199606996",
+    "Facultad":{
+       "Carrera":"Ingenieria en Ciencias de la Computación",
+       "Año":"4to año"
+    }
+}

@@ -1,0 +1,19 @@
+<form action="/signup" method="post">
+  <label for="txtMsg">Escribe tu mensaje</label>
+  <input type="text" id="txtMsg" name="txtMsg"
+    value="{{txtMsg}}" placeholder="Escribe tu mensaje aquí"
+    />
+    <br />
+    <input type="submit" value="Enviar" id="btnSubmit"
+      name="btnSubmit"/>
+</form>
+<div>
+  <ul>
+    {{#each msg}}
+      <li>
+        {{this}}
+      </li>
+      {{/each}}
+  </ul>
+
+</div>
